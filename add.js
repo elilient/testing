@@ -9,3 +9,5 @@ function add(x, y) {
         result = parseFloat(result.toFixed(1));
     }
 }
+
+expect(add(2, 3)).toBe(5)
